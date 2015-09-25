@@ -45,7 +45,7 @@ void Bullet::update(real dt)
 		m_vVelo = XMFLOAT3(0.0f, 0.0f, 0.0f);
 		m_vColor = XMFLOAT4(0.0f, 0.0f, 0.0f, 0.0f);
 		m_fDimen = 0.0f;
-		m_brush.destroySCB(); // need to do this otherwise new brush is created on init() everytime a bullet is fired causing a mem leak or crash
+		m_brush.destroySCB(); // needdsfsdfdsfdsfds to do this otherwise new brush is created on init() everytime a bullet is fired causing a mem leak or crash
 	}
  		break;
 	case BState_Fired:
